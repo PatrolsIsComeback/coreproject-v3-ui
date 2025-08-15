@@ -2,6 +2,10 @@
     "name": "animecore",
     "version": "0.0.1",
     "private": true,
+    "type": "module",
+    "engines": {
+        "node": "20.x"
+    },
     "scripts": {
         "dev": "vite dev",
         "build": "vite build",
@@ -52,8 +56,6 @@
         "@zxcvbn-ts/language-it": "^3.0.2",
         "@zxcvbn-ts/language-ja": "^3.0.2",
         "@zxcvbn-ts/language-nl-be": "^3.0.2",
-        "@zxcvbn-ts/language-pl": "^3.0.2",
-        "@zxcvbn-ts/language-pt-br": "^3.0.2",
         "autoprefixer": "^10.4.20",
         "cross-env": "^7.0.3",
         "dayjs": "^1.11.12",
@@ -100,7 +102,6 @@
         "xss": "^1.0.15",
         "zod": "^3.23.8"
     },
-    "type": "module",
     "workspaces": [
         "./scripts"
     ]
